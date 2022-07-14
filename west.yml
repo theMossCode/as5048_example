@@ -1,0 +1,17 @@
+manifest:
+remotes:
+- name: ncs
+    url-base: https://github.com/nrfconnect
+projects:
+- name: sdk-nrf
+    remote: ncs
+    path: nrf
+    revision: v2.0.0
+    import: true
+    clone-depth: 1
+- name: as5048a
+    url: https://github.com/theMossCode/as5048.git
+    path: drivers
+    import: true
+self:
+path: as5048

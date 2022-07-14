@@ -1,0 +1,4 @@
+[manifest]
+path = example
+file = west.yml
+
